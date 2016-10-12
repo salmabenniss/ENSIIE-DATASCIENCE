@@ -1,0 +1,4 @@
+rates_tab=np.column_stack([item,nbr,rates])
+
+rates_tab=np.array(rates_tab,dtype=dtypes)
+rates_df=pd.DataFrame(rates_tab,index=[:,0],columns=['item','nbr','rates'])
